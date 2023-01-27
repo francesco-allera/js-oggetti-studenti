@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.35em;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background: #F2F8F7;
+    font-size: 20px;
+    color: #152921;
+}
+#app {
+    max-width: 800px;
+    min-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#app > * {
+    margin-bottom: 30px;
+}
+section {
+    padding: 15px;
+}
+section > *:not(:last-child) {
+    margin-bottom: 15px;
+}
+button {
+    border: none;
+    padding: 12px 24px;
+    background: #4D9384;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.inputs {
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    padding: 7px;
+    width: 30%;
+}
+#app section:not(:last-child) {
+    border-bottom: 2px solid;
+}
+ul li {
+    margin-left: 20px;
+}
+.d-none {
+    display: none;
+}

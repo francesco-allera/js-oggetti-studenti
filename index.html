@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Oggetti Studenti</title>
+</head>
+<body>
+
+    <!-- app -->
+    <div id="app">
+        <!-- student output -->
+        <section>
+            <button type="submit" id="student-btn">
+                Mostra primo studente
+            </button>
+
+            <div id="student-output" class="d-none"></div>
+        </section>
+        <!-- /student -->
+
+        <!-- inputs for create new student -->
+        <section>
+            <div class="inputs">
+                <input type="text" id="name" placeholder="nome">
+                <input type="text" id="surname" placeholder="cognome">
+                <input type="text" id="age" placeholder="età">
+            </div>
+
+            <button type="submit" id="new-student-btn">
+                Registra nuovo studente
+            </button>
+        </section>
+        <!-- /inputs -->
+
+        <!-- students list -->
+        <section>
+            <div>
+                L'elenco degli studenti è:
+            </div>
+
+            <ul id="students-output"></ul>
+        </section>
+        <!-- /students -->
+    </div>
+    <!-- /app -->
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
